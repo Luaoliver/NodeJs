@@ -1,0 +1,17 @@
+### requisicao GET
+GET http://localhost:1357
+### requisição POST
+POST http://localhost:1357/hackathon
+Content-Type: application/json
+
+{
+    "curso": "Hackathon DEV - Java",
+    "empresa": "Stefanini Group",
+    "professor": "Thiago Leite"
+}
+### requisição PUT
+PUT http://localhost:1357/hackathon/01234
+### requisição PATCH
+PATCH http://localhost:1357/hackathon/11111
+### requisição DELETE
+DELETE http://localhost:1357/hackathon/12345

@@ -1,0 +1,17 @@
+### requisicao GET /
+GET http://localhost:3000
+###
+GET http://localhost:3000/hackathon/ata
+### requisicao metodo POST
+POST http://localhost:3000/hackathon
+Content-Type: application/json
+
+{
+    "nome" : "Luana"
+}
+###
+PUT http://localhost:3000/hackathon/123
+###
+PATCH http://localhost:3000/hackathon/abuble
+###
+DELETE http://localhost:3000/hackathon/ihu
